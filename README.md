@@ -1,16 +1,40 @@
-# monster_clicker
+# Monster Clicker Game 🎮
 
-A new Flutter project.
+Простой RPG-кликер монстров, написанный на Flutter.  
+Идеальный стартовый шаблон для создания кликеров с элементами игры, уровнями, типами атак и сохранением прогресса.
 
-## Getting Started
+> 🚀 Минимальный проект, который можно развивать дальше в полноценную RPG или аркаду.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🧩 Функции
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Битва с монстрами из аниме
+- Разные типы атак: огонь, вода, земля, воздух
+- Механика урона: слабый, нормальный, сильный
+- Сохранение через `SharedPreferences`
+- Простая система уровней и опыта
+- Отдельные экраны: главная → бой → магазин (по желанию)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠 Технологии
+
+| Технология | Назначение |
+|-----------|------------|
+| Flutter   | UI / логика |
+| Dart      | Язык разработки |
+| Provider  | Управление состоянием |
+| SharedPreferences | Локальное сохранение данных |
+| Android Studio / VS Code | Редактор кода |
+| Git / GitHub | Версионный контроль |
+
+---
+
+## 📦 Как запустить проект
+
+1. Клонируй репозиторий:
+
+   ```bash
+   git clone https://github.com/Davichik353/monster_clicker-game.git 
+   cd monster_clicker-game
